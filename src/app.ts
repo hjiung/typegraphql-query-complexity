@@ -29,7 +29,7 @@ const server = new ApolloServer({
                         variables: request.variables,
                         estimators: [
                             fieldConfigEstimator(),
-                            simpleEstimator({ defaultComplexity: 2 }),
+                            simpleEstimator({ defaultComplexity: 1 }),
                         ],
                     });
                     if (complexity > complexityLimit) {

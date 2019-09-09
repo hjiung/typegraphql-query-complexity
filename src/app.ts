@@ -3,7 +3,7 @@ import "reflect-metadata";
 import { ApolloServer } from "apollo-server";
 import { lexicographicSortSchema, separateOperations } from "graphql";
 import { fieldConfigEstimator, getComplexity, simpleEstimator } from "graphql-query-complexity";
-import { buildSchema, buildSchemaSync } from "type-graphql";
+import { buildSchemaSync } from "type-graphql";
 import { HumanResolver } from "./resolver/human";
 
 const complexityLimit = 100;

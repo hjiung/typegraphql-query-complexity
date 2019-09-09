@@ -1,5 +1,4 @@
-import { parse } from "graphql";
-import { Arg, Ctx, FieldResolver, ID, Query, Root, Resolver } from "type-graphql";
+import { Arg, FieldResolver, ID, Query, Resolver, Root } from "type-graphql";
 import { Cloth, ClothSize, ClothType } from "../typedef/Cloth";
 import { Human, HumanConnection } from "../typedef/human";
 

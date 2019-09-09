@@ -1,5 +1,4 @@
 import { Field, ID, Int, ObjectType } from "type-graphql";
-import { Cloth } from "./Cloth";
 import { PageInfo } from "./connection";
 
 @ObjectType({ description: "A connection to a list of human." })
